@@ -1,0 +1,36 @@
+
+.result-block{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+table,th,td{
+    border: 3px solid #e1e1e1;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+table{
+    width: 70%;
+}
+table h2{
+    display: flex;
+    padding: 10px;
+}
+table button{
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
