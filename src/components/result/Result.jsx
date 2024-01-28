@@ -7,7 +7,6 @@ import { HiMinusCircle } from "react-icons/hi";
 function Result({products, setProducts}) {
   return (
     <div className='result'>
-        <h1>Mahsulotlar</h1>
         <div className='result-block'>
             
             <table>

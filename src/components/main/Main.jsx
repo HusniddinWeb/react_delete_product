@@ -25,7 +25,7 @@ function Main({products, setProducts}) {
 
         <form action="" onSubmit={onForm}>
 
-            <select name="" id="" onChange={(e) => setSelect(e.target.value)}>
+            <select onChange={(e) => setSelect(e.target.value)}>
                 <option value="Ruchka">Ruchka</option>
                 <option value="Qalam">Qalam</option>
                 <option value="Daftar">Daftar</option>
